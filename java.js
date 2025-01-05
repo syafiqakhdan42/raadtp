@@ -4,11 +4,11 @@ function searchGame() {
 }
 
 function login() {
-    alert('Fitur login belum tersedia.');
+    alert('Maaf Anda Sudah Di Retas.');
 }
 
 function topUpNow() {
-    alert('Fitur top-up belum tersedia.');
+    alert('HAHAHAHA trimakasih data anda.');
 }
 
 // Timer Flash Sale
