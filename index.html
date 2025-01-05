@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>LocalTopUp</title>
+    <!-- Menghubungkan file CSS eksternal -->
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <!-- Sidebar untuk navigasi utama -->
+    <aside class="sidebar">
+        <div class="logo">LOCAL TOP UP</div> <!-- Logo situs -->
+        <nav>
+            <ul>
+                <li><a href="#">Home</a></li> <!-- Navigasi ke Home -->
+                <li><a href="#">Transaksi</a></li> <!-- Navigasi ke Transaksi -->
+                <li><a href="#">Promo</a></li> <!-- Navigasi ke Promo -->
+                <li><a href="#">Hadiahku</a></li> <!-- Navigasi ke Hadiahku -->
+            </ul>
+        </nav>
+    </aside>
+
+    <!-- Konten Utama -->
+    <main>
+        <!-- Header dengan bilah pencarian dan tombol masuk -->
+        <header>
+            <div class="search-bar">
+                <input type="text" id="search" placeholder="Cari Game..."> <!-- Input pencarian -->
+                <button onclick="searchGame()">🔍</button> <!-- Tombol pencarian -->
+            </div>
+            <button class="login-btn" onclick="login()">Masuk</button> <!-- Tombol Masuk -->
+        </header>
+
+        <!-- Bagian Banner Promosi -->
+        <section class="banner">
+            <div class="promo">
+                <h2>Top Up Orang</h2> <!-- Judul promosi -->
+                <p>PASTI DAPET Express Supply</p> <!-- Deskripsi promosi -->
+                <button onclick="topUpNow()">Top Up Sekarang!</button> <!-- Tombol aksi -->
+            </div>
+        </section>
+
+        <!-- Bagian Flash Sale -->
+        <section class="flash-sale">
+            <div class="products">
+                <!-- Produk Flash Sale 1 -->
+                <div class="product">
+                    <h3>6001 Diamonds</h3>
+                    <p>5033 + 968 Bonus</p>
+                    <p class="price">Rp1.512.336</p>
+                </div>
+                <!-- Produk Flash Sale 2 -->
+                <div class="product">
+                    <h3>2010 Diamonds</h3>
+                    <p>1708 + 302 Bonus</p>
+                    <p class="price">Rp510.147</p>
+                </div>
+                <!-- Produk Flash Sale 3 -->
+                <div class="product">
+                    <h3>4020 Diamonds</h3>
+                    <p>3416 + 604 Bonus</p>
+                    <p class="price">Rp804.538</p>
+                </div>
+            </div>
+        </section>
+    </main>
+    
+
+    <!-- Menghubungkan file JavaScript eksternal -->
+    <script src="java.js"></script>
+</body>
+</html>
